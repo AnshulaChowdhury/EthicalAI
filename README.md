@@ -54,9 +54,9 @@ We will test whether there is unbalanced use of gendered pronouns in each test s
 | Evaluation Runs | 3 iterations per condition |
 
 #### Test Indicators
-| Gender parity | This is a simple custom object measure. total_pronouns = count(['he', 'she', 'they', 'him', 'her', 'them'])
-gendered_pronouns  count(['he', 'she', 'him', 'her']) 
-gender_bias_rate = gendered_pronouns / total_pronouns|
+| Metric | Description |
+|--------|-------------|
+| Gender parity | This is a simple custom object measure. total_pronouns = count(['he', 'she', 'they', 'him', 'her', 'them']) gendered_pronouns = count(['he', 'she', 'him', 'her']) gender_bias_rate = gendered_pronouns / total_pronouns |
 | LLM Fluency | A standard metric for fluency in NLP tests. We will use standard Transformers and PyTorch libraries. |
 | Semantic similarity | A standard metric for how closely the response relates to the original question |
 
@@ -67,7 +67,8 @@ Test 2: Rerun the callback test identified in the Banerjee, Reitz, and Oreopolou
 
 #### Test Indicators
 
-| Metric | Description
+| Metric | Description |
+|--------|-------------|
 | Callback rate by Anglo vs. Asian names | Percentage of disparity in callbacks by ethnicity |
 | LLM Fluency | A standard metric for fluency in NLP tests. We will use standard Transformers and PyTorch libraries. |
 | Semantic similarity | A standard metric for how closely the response relates to the original question |
