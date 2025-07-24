@@ -9,6 +9,17 @@
 
 ## Executive Summary
 
+### Proposed Technology & Application
+
+We are proposing an open source technology to identify and correct biases in AI in real time. This would take the form of a computational layer of technology that can be plugged into any agentic workflow to both identify and correct bias in AI. The computational layer would:
+
+- Be downloadable by anyone, and have a ready made API;
+- Allow people to pull and push the layer's ethical structure into their own AI applications. 
+
+For example, if users are using a chatbot for customer support, or social services, the ethical AI layer will: 
+- Identify biases in whatever LLM model is being used;
+- Log the issue + correct it in real time.
+
 ### Purpose of Test
 The purpose of this set of tests is to test whether the underlying thesis that KAG will provide significant performance upgrades in reducing bias and improving semantic fidelity when compared with other available technologies such as RAG, LLM, and NLP.
 
